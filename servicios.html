@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Barbería</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para la tarjeta de precios */
+        .pricing-card {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            text-align: center;
+        }
+        .pricing-card h3 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            color: #333;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pricing-card ul li {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #555;
+        }
+        .pricing-card ul li span {
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav class="menu">
+                <div class="logo">
+                    <img src="anillo.gif" alt="Logo Barbería" class="logo-img">
+                </div>
+                <ul class="menu-items">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    &#9776;
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="servicios">
+                <h2>Nuestros Servicios</h2>
+                <p>Cortes, afeitados y más.</p>
+            </section>
+
+            <!-- Tarjeta de precios -->
+            <section class="pricing-card">
+                <h3>Precios de Cortes de Pelo</h3>
+                <ul>
+                    <li>Corte Clásico <span>$150</span></li>
+                    <li>Corte Degradado <span>$200</span></li>
+                    <li>Afeitado Clásico <span>$120</span></li>
+                    <li>Corte Infantil <span>$100</span></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Barbercris. Todos los derechos reservados.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="facebook.png" class="face"></img></a></li>
+                <li><a href="#"><img src="insta-removebg-preview.png" class="insta"></img></a></li>
+                <li><a href="#"><img src="logowhats-removebg-preview.png" class="whats"></img></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
